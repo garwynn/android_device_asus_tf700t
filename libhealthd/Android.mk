@@ -13,15 +13,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
+#LOCAL_PATH := $(call my-dir)
 
-include $(CLEAR_VARS)
+#include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := healthd_board_cardhu.cpp
-LOCAL_C_INCLUDES := system/core/healthd
+#LOCAL_SRC_FILES := healthd_board_cardhu.cpp
+#LOCAL_C_INCLUDES := system/core/healthd
 
-LOCAL_STATIC_LIBRARIES := libutils
+#LOCAL_STATIC_LIBRARIES := libutils
 
-LOCAL_MODULE := libhealthd.cardhu
+#LOCAL_MODULE := libhealthd.cardhu
 
-include $(BUILD_STATIC_LIBRARY)
+#include $(BUILD_STATIC_LIBRARY)
